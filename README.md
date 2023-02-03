@@ -7,3 +7,10 @@
   - 2주차 Part 02 포인터와 배열의 시작
   - 3주차 Part 03 포인터와 배열의 완성
   - 4주차 Part 04 C언어의 깊은 이해
+
+- 챌린저  
+
+|유진|김지은|최수빈|신지은|
+|---|---|---|---|
+|![image](https://user-images.githubusercontent.com/94737714/216596956-d74dc20b-c056-40bc-be81-7e1a0f886384.png)|![image](https://user-images.githubusercontent.com/94737714/216597005-f4042cf4-161e-459f-882b-40d43259d605.png)
+|내용 3|![image](https://user-images.githubusercontent.com/94737714/216596844-2cc0efb8-4fd1-4cd8-9af8-15b79eded0eb.png)|

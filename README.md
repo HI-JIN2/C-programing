@@ -41,19 +41,12 @@ PR을 날리면 다른 사람의 코드에 코멘트를 달 수 있다.
 
 
 ## PR Convention
+- PR 제목은 `해당 주/본인 이름`으로 한다.  
+  `1주차/유진`
 
-- 제목 ex. [1주차/유진] Part 01 C언어의 기본
+## Commit Convention
+- 새로운 문제 파일 추가 시: Create [파일이름]  
+  `Create 1-01.c`
 
-
-## Commit Message Convention
-`커밋태그 : 내용 #이슈번호`
-
-예시) add : login 파일 추가 #20
-
-- 파일 추가 : add
-- 버그 수정 : fix
-- 리팩터링 : refactoring
-- 파일 삭제 : remove
-- 기능 추가 : feat
-- 문서 수정 : docs
-- 주석 추가 : comment
+- 기존 코드 수정 시: Modify [파일이름]  
+  `Modify 1-01.c`

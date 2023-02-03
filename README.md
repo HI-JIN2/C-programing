@@ -12,5 +12,48 @@
 
 |유진|김지은|최수빈|신지은|
 |---|---|---|---|
-|![image](https://user-images.githubusercontent.com/94737714/216596956-d74dc20b-c056-40bc-be81-7e1a0f886384.png)|![image](https://user-images.githubusercontent.com/94737714/216597005-f4042cf4-161e-459f-882b-40d43259d605.png)
-|내용 3|![image](https://user-images.githubusercontent.com/94737714/216596844-2cc0efb8-4fd1-4cd8-9af8-15b79eded0eb.png)|
+|<img src="https://user-images.githubusercontent.com/94737714/216596956-d74dc20b-c056-40bc-be81-7e1a0f886384.png"  width="200" height="200">|<img src="https://user-images.githubusercontent.com/94737714/216598620-c9c75d88-bdfe-4939-9c1e-f09dfe19045f.png"  width="200" height="200">|<img src="[https://user-images.githubusercontent.com/94737714/216596844-2cc0efb8-4fd1-4cd8-9af8-15b79eded0eb.png](https://user-images.githubusercontent.com/94737714/216598341-22d047ef-3fee-43c8-91ea-779ef689f842.png)"  width="200" height="200">|<img src="https://user-images.githubusercontent.com/94737714/216596844-2cc0efb8-4fd1-4cd8-9af8-15b79eded0eb.png"  width="200" height="200">|
+
+
+
+
+## 스터디 규칙
+💡 매주 일요일 인증
+
+- 해당 주차가 시작하는 월요일부터 일요일까지의 기간 동안 책 정독 및 도전 문제 풀기, 예제 풀기 등 (***도전문제는 필수)***
+- 과제 인증 방식
+해당 레포에 PullRequest(PR)을 날리는 것으로 한다.
+그 다음주 월요일 10시에 머지할 것임으로, 해당 주차에 대한 내용은 일요일까지 다 커밋하기 바람
+- 코드 리뷰 
+PR을 날리면 다른 사람의 코드에 코멘트를 달 수 있다. 
+다른 사람은 어떻게 접근 했나 보고, 코드리뷰도 달아보자!
+        
+- 자신의 이름(ex. Jin)으로 브랜치를 생성하고, 이니셜(ex. YJ)로 폴더를 생성함
+  
+  
+## PR 날리는 법
+
+1. branch 생성
+2. 작업 완료 후 add, commit, push
+3. pull request 생성
+4. 코드 리뷰 
+5. (Merge → 진이가 매주 월요일 10시에 머지 합니다!)
+
+
+## PR Convention
+
+- 제목 ex. [1주차/유진] Part 01 C언어의 기본
+
+
+## Commit Message Convention
+`커밋태그 : 내용 #이슈번호`
+
+예시) add : login 파일 추가 #20
+
+- 파일 추가 : add
+- 버그 수정 : fix
+- 리팩터링 : refactoring
+- 파일 삭제 : remove
+- 기능 추가 : feat
+- 문서 수정 : docs
+- 주석 추가 : comment

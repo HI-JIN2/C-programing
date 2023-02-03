@@ -1,5 +1,5 @@
 #include <stdio.h>
-void gugudan(int n1, int n2);  //이걸 꼭 해줘야 하네....함수 정의를 꼭 해줬어야 했나..
+void gugudan(int n1, int n2);  
 int main(void){
     //두 개 정수 입력 받아서 구구단 출력
     int n1, n2;

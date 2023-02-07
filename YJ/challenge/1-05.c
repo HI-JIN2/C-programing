@@ -9,26 +9,28 @@ num으로 밖에 나눠지지 않는다면 이는 소수에 해당한다. 따라
 실행의 예
 2 3 5 7 11 13 17 19 23 29*/
 
-#include<stdio.h>
-int a;
-
-int isPrime(int num){
-    for(int i=2; i<num; i++){
-        if(num % i == 0) {
-            a++;
-            return 0;
+#include <stdio.h>
+int main()
+{
+    int n = 0;
+    for (int i = 0; i < 10; i++)
+    {
+        n++;
+        while (1)
+        {
+            int count = 0;
+            for (int z = 1; z <= n; z++)
+            {
+                if (n % z == 0)
+                    count++; // 소수
             }
+            if (count == 2)
+            {
+                printf("%d ", n); // 소수 아님
+                break;
+            }
+            else
+                n++;
+        }
     }
-    return 1;
 }
-int main(){
-    while(a<11){
-        int i=1;
-        
-        if(isPrime(i++)==1) printf("%d",i);
-        
-    }
-
-
-}
-

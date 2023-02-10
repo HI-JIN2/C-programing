@@ -5,7 +5,7 @@ int main(void){
     printf("총 10개의 숫자 입력\n");
     for(int i=0;i<10;i++){
         printf("입력:");
-        scanf("%d",&n);
+        scanf("%d",&n);  // 왜 n으로 받아야 하는가? 배열로 받으면 안되는 건가?
         if(n%2==1){
             arr[min]= n;
             min++;

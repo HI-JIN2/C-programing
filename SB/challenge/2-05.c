@@ -25,7 +25,7 @@ int main(void)
     int i=0;
     for (; i<7; i++)
     {
-        printf("ÀÔ·Â: ");
+        printf("ìž…ë ¥: ");
         scanf("%d", &arr[i]);
     }
     DesSort(arr);

@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 #include <string.h>
 #include <stdbool.h>
 void palindrome(char arr[], int length){

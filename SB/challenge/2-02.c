@@ -3,7 +3,7 @@ int main(void)
 {
     int i, k=0;
     int arr[20];
-    printf("10Áø¼ö Á¤¼ö ÀÔ·Â: ");
+    printf("10ì§„ìˆ˜ ì •ìˆ˜ ìž…ë ¥: ");
     scanf("%d", &i);
 
     while (i>=2)

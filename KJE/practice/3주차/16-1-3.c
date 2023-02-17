@@ -3,7 +3,7 @@ int main(void){
     //pg349
     int arr[5][5];
     int sum;
-    int subjectSum=0;
+    int subjectSum;
     for(int i=0;i<4;i++){
         sum=0;  //꼭 초기화 안에서 해주기
         if(i==0){
@@ -39,7 +39,7 @@ int main(void){
         }
         arr[i][4]=sum;  //총점
     }
-    
+
     for(int i=0;i<4;i++){
         subjectSum=0;  //꼭 초기화 안에서 해주기
         for(int j=0;j<4;j++){
@@ -53,7 +53,7 @@ int main(void){
         printf("과목별 총점: %d\n",arr[4][i]);
     }
     for(int i=0;i<5;i++){
-        printf("총점: %d\n", arr[i][4]);
+        printf("총점: %d\n", arr[i][4]);  //최종총점이 89가 아니라 90으로 나온다..이유가 뭘까..
     }
     return 0;
 }

@@ -2,8 +2,8 @@
 #include <stdlib.h>
 int main(void)
 {
-	printf("³­¼öÀÇ ¹üÀ§: 0ºÎÅÍ 99±îÁö \n");
+	printf("ë‚œìˆ˜ì˜ ë²”ìœ„: 0ë¶€í„° 99ê¹Œì§€ \n");
 	for (int i = 0; i < 5; i++)
-		printf("³­¼ö Ãâ·Â: %d\n", rand() % 100);
+		printf("ë‚œìˆ˜ì¶œë ¥: %d\n", rand() % 100);
 	return 0;
 }

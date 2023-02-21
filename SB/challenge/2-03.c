@@ -4,11 +4,11 @@ int main(void)
     int arr[10];
     int save[10];
     int i, k = 0, j = 9;
-    printf("ÃÑ 10°³ÀÇ ¼ıÀÚ ÀÔ·Â\n");
+    printf("ì´ 10ê°œì˜ ìˆ«ì ì…ë ¥\n");
 
     for (i = 0; i < 10; i++)
     {
-        printf("ÀÔ·Â: ");
+        printf("ì…ë ¥: ");
         scanf("%d", &arr[i]);
     }
     for (i = 0; i < 10; i++)
@@ -24,7 +24,7 @@ int main(void)
             j--;
         }
     }
-    printf("¹è¿­ ¿ä¼ÒÀÇ Ãâ·Â: ");
+    printf("ë°°ì—´ìš”ì†Œì˜ ì¶œë ¥: ");
     for (i = 0; i < 10; i++)
         printf("%d ", save[i]);
 }

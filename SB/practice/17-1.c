@@ -21,7 +21,7 @@ int main(void)
 	int arr[5];
 	for (int i = 0; i < 5; i++)
 	{
-		printf("%d¹øÂ° ¹è¿­°ª ÀÔ·Â: ", i + 1);
+		printf("%dë²ˆì§¸ ë°°ì—´ê°’ ìž…ë ¥: ", i + 1);
 		scanf("%d", &arr[i]);
 	}
 

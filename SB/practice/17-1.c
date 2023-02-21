@@ -21,7 +21,7 @@ int main(void)
 	int arr[5];
 	for (int i = 0; i < 5; i++)
 	{
-		printf("%d번째 배열값 입력: ", i + 1);
+		printf("%d번째배열값 입력: ", i + 1);
 		scanf("%d", &arr[i]);
 	}
 

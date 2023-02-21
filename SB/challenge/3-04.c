@@ -6,5 +6,5 @@ int main(void)
 {
 	srand((int)time(NULL));
 	for (int i = 0; i < 2; i++)
-		printf("ÁÖ»çÀ§ %dÀÇ °á°ú %d\n", i + 1, (rand() % 6) + 1);
+		printf("ì£¼ì‚¬ìœ„ %dì˜ ê²°ê³¼ %d\n", i + 1, (rand() % 6) + 1);
 }

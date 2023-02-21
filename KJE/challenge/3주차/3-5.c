@@ -14,6 +14,7 @@ int main(void){
         scanf("%d",&user);
         /*
         이기는 조건
+        user    com
         바위(1)>가위(2)
         가위(2)>보(3)
         보(3)>바위(1)
@@ -23,7 +24,7 @@ int main(void){
             printf("당신은 %s 선택, 컴퓨터는 %s 선택, 비겼습니다!\n",arr[user-1],arr[com-1]);
             same++;
         }
-        else if(abs(user-com)>1||abs(user-com)>2){
+        else if(user<com && com-user==1||user>com && user-com==2){  
             printf("당신은 %s 선택, 컴퓨터는 %s 선택, 이겼습니다!\n",arr[user-1],arr[com-1]);
             win++;
         }

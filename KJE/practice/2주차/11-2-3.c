@@ -10,7 +10,7 @@ int main(void) {
     }
     for(int i=0;i<len;i++){
         if(max<lan[i]){
-            max=lan[i];
+            max=lan[i];  //그 자체로 아스키코드 값으로 바뀜
         }
     }
     printf("아스키 코드 값이 가장 큰 문자:%c",max);
